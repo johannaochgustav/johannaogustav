@@ -5,3 +5,29 @@ html, body {
     font-weight: 300;
     font-size: 15px;
 }
+
+
+/* Typography! */
+h1, h2, h3 {
+	/*color: #D01E4F;*/
+	font-weight: bold;
+}
+h1 {
+	font-size: 350%;
+}
+
+/* Links! */
+a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+	-webkit-transition: all 0.1s ease-in-out;
+	   -moz-transition: all 0.1s ease-in-out;
+	    -ms-transition: all 0.1s ease-in-out;
+	     -o-transition: all 0.1s ease-in-out;
+			transition: all 0.1s ease-in-out;
+}
+a:hover {
+	border-bottom: 1px solid #D01E4F;
+	color: #D01E4F;
+	text-decoration: none;
+}
