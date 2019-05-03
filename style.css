@@ -85,8 +85,9 @@ li a {
 }
 
 #map {
-    height: 400px;  /* The height is 400 pixels */
+    height: 300px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
+    background-color: grey;
 }
 
 #page-title
@@ -120,5 +121,19 @@ li a {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 250%;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:270px;
+  width:330px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:270px;
+  width:330px;
 }
 
