@@ -3,7 +3,7 @@ html, body {
     color:  #fff ;
     font-family: 'Amatic SC', cursive;
     font-weight: 300;
-    font-size: 4vh;
+    font-size: 140%;
     height: 100%;
 
 }
@@ -21,7 +21,6 @@ h1, h2, h3 {
 /* Links! */
 a {
 	color: #BF2520;
-	border-bottom: 1px dotted #ECCB01;
 	-webkit-transition: all 0.1s ease-in-out;
 	   -moz-transition: all 0.1s ease-in-out;
 	    -ms-transition: all 0.1s ease-in-out;
@@ -37,21 +36,22 @@ a:hover {
 ul {
 
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #032047;
   float: none;
   position: absolute;
-  left:50%;
-  transform: translate(-50%, 0);
+
   /*position: fixed;
   top: 0;
-  width: 100%;*/
+  width: 100%;
+  transform: translate(-50%, 0);
+  */
 }
 
 li {
-  float: left;
+  margin:auto;
+  float:left;
   display:inline;
 }
 
@@ -67,13 +67,18 @@ li a {
   background-color: #BF2520;
 }
 
-.nav{
+.navbar
+{
+  display:flex;
+  justify-content: center;
+
+}
+
+#nav{
     text-align:center;
+    margin-top: 0;
 }
-.nav a{
-    display:inline-block;
-    padding:5px;
-}
+
 
 .social-media {
 	position:fixed;
@@ -88,17 +93,11 @@ li a {
 .social-media p {
   margin-top: 3px;
 }
-.maps
-{
-  margin-bottom: 10%;
-  margin-right: 10%;
-  float: right;
-}
 
 
 #page-title
 {
-	margin-top: 5%;
+	margin-top: 10%;
   margin-bottom: 0;
   font-size: 170%;
   text-align: center;
@@ -117,7 +116,7 @@ li a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog2.jpg");
 
   /* Set a specific height */
-  height: 65%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -138,11 +137,22 @@ li a {
   font-size: 250%;
 }
 
+/*Kartor*/
+
+.maps
+{
+  margin-bottom: 10%;
+  margin-right: 10%;
+  float: right;
+  width: 40%;
+}
+
 .mapouter{
   position:relative;
   text-align:right;
   height:270px;
   width:330px;
+  margin-left: 5%;
 }
 
 .gmap_canvas {
@@ -160,7 +170,7 @@ li a {
   border-style: dotted;
   border-color: white;
   border-width: 5px;
-  width: 15%;
+  width: 35%;
 }
 
 .container p
@@ -168,3 +178,10 @@ li a {
   margin: 3%;
 }
 
+
+#schema
+{
+  float:left;
+  width: 40%;
+  margin-left: 10%;
+}
