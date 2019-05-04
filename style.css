@@ -91,18 +91,24 @@ li a {
 .maps
 {
   margin-bottom: 10%;
+  margin-right: 10%;
+  float: right;
 }
 
-#map {
-    height: 300px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
-    background-color: grey;
-}
 
 #page-title
 {
 	margin-top: 5%;
-	margin-left: 10%;
+  margin-bottom: 0;
+  font-size: 170%;
+  text-align: center;
+
+}
+
+#info-title
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* The hero image */
@@ -144,5 +150,21 @@ li a {
   background:none!important;
   height:270px;
   width:330px;
+}
+
+.container
+{
+  float: left;
+  margin-left: 10%;
+  margin-top: 3%;
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 15%;
+}
+
+.container p
+{
+  margin: 3%;
 }
 
