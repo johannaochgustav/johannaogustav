@@ -72,6 +72,11 @@ h1, h2, h3 {
     float: right;
     display: block;
   }
+
+.hero-text h1
+{
+  font-size: 80%;
+}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -92,6 +97,7 @@ h1, h2, h3 {
     display: block;
     text-align: left;
   }
+
 }
 
 /* Fast navbar */
