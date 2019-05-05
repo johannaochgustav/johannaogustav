@@ -77,6 +77,11 @@ h1, h2, h3 {
 {
   font-size: 80%;
 }
+
+.hero-image
+{
+  height: 50%;
+}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -187,15 +192,14 @@ h1, h2, h3 {
   position:relative;
   text-align:right;
   height:270px;
-  width:330px;
-  margin-left: 5%;
+  width:270px;
 }
 
 .gmap_canvas {
   overflow:hidden;
   background:none!important;
   height:270px;
-  width:330px;
+  width:270px;
 }
 
 .container
