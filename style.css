@@ -197,11 +197,13 @@ h1, h2, h3 {
 {
   float: left;
   margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 3%;
   margin-top: 3%;
   border-style: dotted;
   border-color: white;
   border-width: 5px;
-  width: 35%;
+  width: 30%;
 
 }
 
@@ -215,6 +217,7 @@ h1, h2, h3 {
 {
   width: 40%;
   margin-left: 6%;
+  margin-right: 6%;
 }
 
 
