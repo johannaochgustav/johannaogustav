@@ -73,15 +73,7 @@ h1, h2, h3 {
     display: block;
   }
 
-.hero-text h1
-{
-  font-size: 80%;
-}
 
-.hero-image
-{
-  height: 50%;
-}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -105,7 +97,6 @@ h1, h2, h3 {
 
 }
 
-/* Fast navbar */
 
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -205,12 +196,13 @@ h1, h2, h3 {
 .container
 {
   float: left;
-  margin-left: 10%;
+  margin-left: 6%;
   margin-top: 3%;
   border-style: dotted;
   border-color: white;
   border-width: 5px;
   width: 35%;
+
 }
 
 .container p
@@ -219,9 +211,52 @@ h1, h2, h3 {
 }
 
 
-#schema
+.schema
 {
-  float:left;
   width: 40%;
-  margin-left: 10%;
+  margin-left: 6%;
 }
+
+
+/* Mobile */
+
+@media screen and (max-width: 700px) {
+
+html, body {
+  font-weight: 2500;
+  font-size: 130%;
+}
+
+.hero-text h1
+{
+  margin-top: 30%;
+  font-size: 80%;
+}
+
+.hero-image
+{
+  height: 45%;
+}
+
+.container
+{
+  width: 90%;
+}
+
+.maps
+{
+  margin-bottom: 10%;
+  margin-left: 6%;
+  float: left;
+  width: 90%;
+}
+
+.schema
+{
+  width: 90%;
+  margin-left: 6%;
+  margin-bottom: 20%;
+}
+
+}
+
