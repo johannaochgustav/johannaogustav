@@ -27,12 +27,12 @@ h1, h2, h3 {
 	     -o-transition: all 0.1s ease-in-out;
 			transition: all 0.1s ease-in-out;
 
-  display: block;
+  display: inline;
   color: #FAE77F;
   text-align: center;
   padding: 2vh 3vw;
   text-decoration: none;
-  float: left;
+
 }
 .myNav a:hover {
 	border-bottom: 1px solid #BF2520;
@@ -55,8 +55,8 @@ h1, h2, h3 {
 
 #nav{
   overflow: hidden;
-    text-align:center;
-    margin-top: 0;
+  text-align:center;
+  margin-top: 0;
 }
 
 
@@ -76,7 +76,12 @@ h1, h2, h3 {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .myNav.responsive {position: relative;}
+  .myNav.responsive {
+    position: relative;
+    float: none;
+    display: block;
+
+  }
   .myNav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -141,7 +146,6 @@ h1, h2, h3 {
 
   /* Set a specific height */
   height: 60%;
-  width: 100%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
