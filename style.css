@@ -1,3 +1,12 @@
+/*
+light blue: #1A5798;
+dark blue: #19233E;
+yellow: #F9BD45;
+red: #AA1B1F;
+
+*/
+
+
 html, body {
     background-color: #19233E;
     color:  #fff ;
@@ -55,7 +64,7 @@ h1, h2, h3 {
 #nav{
   overflow: hidden;
   text-align:center;
-  margin-top: 0;
+  margin-top: -150px;
 }
 
 
@@ -149,16 +158,19 @@ h1, h2, h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog10.jpg");
 
   /* Set a specific height */
-  height: 60%;
+  height: 80%;
 
   /* Position and center the image to scale nicely on all screens */
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+  transform: translate(0, -25%);
+  margin: 0;
 }
 
 /* Place text in the middle of the image */
@@ -169,8 +181,8 @@ h1, h2, h3 {
   justify-content: center;
   color: white;
   font-size: 250%;
+  margin-top: 0;
 }
-
 
 
 /*Kartor*/
@@ -254,7 +266,7 @@ html, body {
 .hero-image
 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog9.jpg");
-  height: 45%;
+  height: 60%;
 }
 
 .container
