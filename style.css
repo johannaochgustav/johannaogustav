@@ -139,9 +139,6 @@ h1, h2, h3 {
   background-size: 100%;
   background-attachment: fixed;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transform: translate(0, -40%);
   margin: 0;
 }
@@ -408,6 +405,7 @@ html, body {
 {
   background-image: url("images/header4.png");
   height: 75%;
+  background-size: 100%;
   transform: translate(0, -50%);
 }
 
