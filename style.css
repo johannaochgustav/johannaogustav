@@ -128,10 +128,10 @@ h1, h2, h3 {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog10.jpg");
+  background-image: url("images/header3.png");
 
   /* Set a specific height */
-  height: 60%;
+  height: 70%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center center;
@@ -421,7 +421,7 @@ html, body {
 
 .hero-image
 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog9.jpg");
+  background-image: url("images/header4.png");
   height: 45%;
 }
 
