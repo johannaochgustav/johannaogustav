@@ -180,6 +180,7 @@ h1, h2, h3 {
   background-color: #A1201C;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
+  text-align: center;
 
 }
 
@@ -282,6 +283,7 @@ h1, h2, h3 {
   border-radius: 7px 7px 7px 7px;
   padding-top: 6px; 
   padding-bottom: 6px;
+  text-align: center;
 }
 .schema p
 {
