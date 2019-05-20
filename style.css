@@ -8,11 +8,11 @@ red: #AA1B1F;
 
 
 html, body {
-    background-color: #19233E;
+    background-color: #1A243F;
     color:  #fff ;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 300;
-    font-size: 140%;
+    font-size: 110%;
     height: 100%;
 
 }
@@ -25,6 +25,17 @@ body {
 h1, h2, h3 {
 	/*color: #D01E4F;*/
 	font-weight: bold;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
 }
 
 /* Links! */
@@ -57,14 +68,14 @@ h1, h2, h3 {
   overflow: hidden;
   display:flex;
   justify-content: center;
-  background-color: #1A5798;
+  background-color: #1A243F;
+  margin-top: -100px;
 
 }
 
 #nav{
   overflow: hidden;
   text-align:center;
-  margin-top: -150px;
 }
 
 
@@ -74,48 +85,11 @@ h1, h2, h3 {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-.myNav a:not(:first-child) {display: none;}
-.myNav a.icon {
-    float: right;
-    display: block;
-  }
-
-
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .myNav.responsive {
-    position: relative;
-    float: none;
-    display: block;
-
-  }
-  .myNav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .myNav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-}
 
 
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 0px;
-}
+
+
 
 
 
@@ -142,6 +116,7 @@ h1, h2, h3 {
   margin-bottom: 3%;
   font-size: 170%;
   text-align: center;
+  background-color: #1A243F;
 
 }
 
@@ -158,12 +133,12 @@ h1, h2, h3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog10.jpg");
 
   /* Set a specific height */
-  height: 80%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   position: relative;
   display: flex;
@@ -200,6 +175,8 @@ h1, h2, h3 {
   text-align:right;
   height:270px;
   width:270px;
+  margin-left: 15%; 
+  margin-bottom: 3%;
 }
 
 .gmap_canvas {
@@ -218,6 +195,9 @@ h1, h2, h3 {
   border-style: dotted;
   border-color: white;
   border-width: 5px;
+  background-color: #A1201C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 7px 7px 7px 7px;
 
 }
 
@@ -226,6 +206,68 @@ h1, h2, h3 {
   margin: 3%;
 }
 
+.hotell
+{
+  background-color: #A1201C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 7px 7px 7px 7px;
+  width: 40%;
+  margin-left: 5%;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.hotell p
+{
+  margin: 3%;
+}
+
+.hotell-container
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.info-div
+{
+  padding-top: 6px; 
+  padding-bottom: 6px;
+  background-color: #A1201C;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 7px 7px 7px 7px;
+}
+
+
+.info-div p
+{
+  margin: 3%;
+  margin-bottom: 5%;
+}
+
+#dressingcode
+{
+  width: 90%;
+  margin-bottom: 8%;
+  margin-left: 5%;
+}
+
+#contact
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact div
+{
+  width: 50%;
+  margin-left: 5%;
+  margin-bottom: 10%;
+
+}
 
 .schema
 {
@@ -234,6 +276,9 @@ h1, h2, h3 {
   margin-top: 3%;
   background-color: #F9BD45;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 7px 7px 7px 7px;
+  padding-top: 6px; 
+  padding-bottom: 6px;
 }
 .schema p
 {
@@ -256,13 +301,85 @@ h1, h2, h3 {
 }
 
 
+/* BILD */ 
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 2px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 30%;
+  max-width: 24%;
+  justify-content: center;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.column img {
+  margin-top: 6px;
+  vertical-align: middle;
+  color: white;
+
+}
+
+.imagealbum
+{
+  width: 100%;
+}
+
+/* Personlig info /*
+
+
+  /* Add shadows to create the "card" effect */
+  
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.nametag {
+  margin-left: 5%;
+  margin-top: 5%;
+  padding: 2px 16px;
+  width: 30%;
+  background-color: #F9BD45;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  border-radius: 7px 7px 7px 7px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+
+
+
 /* Mobile */
 
 @media screen and (max-width: 700px) {
 
 html, body {
   font-weight: 250;
-  font-size: 130%;
+  font-size: 100%;
 }
 
 .hero-text h1
@@ -274,12 +391,23 @@ html, body {
 .hero-image
 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/jog9.jpg");
-  height: 60%;
+  height: 45%;
 }
 
 .container
 {
   width: 90%;
+  margin-left: 5%; 
+  border-radius: 5px 5px 0 0;
+}
+
+.mapouter{
+  margin-left: 5%;
+}
+
+.info-div
+{
+  margin-top: 5%;
 }
 
 .maps
@@ -288,6 +416,7 @@ html, body {
   margin-left: 5%;
   float: left;
   width: 90%;
+
 }
 
 .schema
@@ -302,31 +431,28 @@ html, body {
   width: 100%;
 }
 
+.myNav
+{
+  margin-top: -20%;
 }
 
-/* BILD */ 
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  justify-content: center;
+/* BILD*/
+
+.imagealbum
+{
+  width: 48%;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 30%;
-  max-width: 25%;
-  padding: 0 2px;
-  justify-content: center;
 }
 
-.column img {
-  margin-top: 6px;
-  vertical-align: middle;
-  color: white;
 
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
 }
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
@@ -344,38 +470,38 @@ html, body {
   }
 }
 
+
+@media screen and (max-width: 600px) {
+.myNav a:not(:first-child) {display: none;}
+.myNav a.icon {
+    float: right;
+    display: block;
+  }
+
+
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .myNav.responsive {
+    position: relative;
+    float: none;
+    display: block;
+
+  }
+  .myNav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .myNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
 /* Zoom bild /* 
 
 
-/* Personlig info /*
-
-
-  /* Add shadows to create the "card" effect */
-  
-.card {
- box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
- transition: 0.3s;
-  width: 40%;
-  border-radius: 5px;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-}
-
-/* Add rounded corners to the top left and the top right corner of the image */
-img {
-  border-radius: 5px 5px 0 0;
-}
