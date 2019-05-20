@@ -187,7 +187,7 @@ h1, h2, h3 {
 .container
 {
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 5%;
   margin-bottom: 3%;
   margin-top: 3%;
   border-style: dotted;
@@ -352,7 +352,7 @@ h1, h2, h3 {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,0.9);
 }
 
 /* Add some padding inside the card container */
