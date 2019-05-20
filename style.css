@@ -28,15 +28,7 @@ h1, h2, h3 {
 }
 
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 0px;
-}
+
 
 /* Links! */
 .myNav a {
@@ -85,6 +77,14 @@ h1, h2, h3 {
 /* Hide the link that should open and close the topnav on small screens */
 .myNav .icon {
   display: none;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 0px;
 }
 
 
@@ -173,7 +173,6 @@ h1, h2, h3 {
   text-align:right;
   height:270px;
   width:270px;
-  margin-left: 18%; 
   margin-bottom: 3%;
 }
 
@@ -211,8 +210,23 @@ h1, h2, h3 {
   border-radius: 7px 7px 7px 7px;
   width: 40%;
   margin-left: 5%;
-  text-align: center;
   margin-bottom: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hotell a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+.hotell a:hover 
+{
+  color: #F9BD45;
+
 }
 
 .hotell p
@@ -237,6 +251,10 @@ h1, h2, h3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
   margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 
@@ -412,10 +430,6 @@ html, body {
   width: 90%;
   margin-left: 5%; 
   border-radius: 5px 5px 0 0;
-}
-
-.mapouter{
-  margin-left: 7%;
 }
 
 .info-div
