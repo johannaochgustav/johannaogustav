@@ -131,7 +131,7 @@ h1, h2, h3 {
   background-image: url("images/header3.png");
 
   /* Set a specific height */
-  height: 60%;
+  height: 400px;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center top;
