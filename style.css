@@ -51,6 +51,7 @@ h1, h2, h3 {
   text-align: center;
   padding: 2vh 3vw;
   text-decoration: none;
+  font-size: 120%;
 
 }
 .myNav a:hover {
