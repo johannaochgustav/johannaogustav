@@ -63,7 +63,7 @@ h1, h2, h3 {
   display:flex;
   justify-content: center;
   background-color: #1A243F;
-  margin-top: -200px;
+  margin-top: 0px;
 
 }
 
@@ -131,16 +131,14 @@ h1, h2, h3 {
   background-image: url("images/header3.png");
 
   /* Set a specific height */
-  height: 75%;
+  height: 60%;
 
   /* Position and center the image to scale nicely on all screens */
-  background-position: center center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
   position: relative;
-  transform: translate(0, -40%);
-  margin: 0;
 }
 
 
@@ -404,9 +402,9 @@ html, body {
 .hero-image
 {
   background-image: url("images/header4.png");
-  height: 75%;
+  height: 35%;
   background-size: 100%;
-  transform: translate(0, -50%);
+  margin-top: 0;
 }
 
 .container
@@ -442,10 +440,6 @@ html, body {
   width: 100%;
 }
 
-.myNav
-{
-  margin-top: -260px;
-}
 
 .hotell
 {
