@@ -128,7 +128,7 @@ h1, h2, h3 {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("images/header3.png");
+  background-image: url("images/background1.png");
 
   /* Set a specific height */
   height: 400px;
@@ -401,7 +401,7 @@ html, body {
 
 .hero-image
 {
-  background-image: url("images/header4.png");
+  background-image: url("images/background2.png");
   height: 35%;
   background-size: 100%;
   margin-top: 0;
