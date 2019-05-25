@@ -177,7 +177,7 @@ h1, h2, h3 {
   border-style: dotted;
   border-color: white;
   border-width: 5px;
-  background-color: #A1201C;
+  background-color: #1A5798;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
   text-align: center;
@@ -191,7 +191,7 @@ h1, h2, h3 {
 
 .hotell
 {
-  background-color: #A1201C;
+  background-color: #1A5798;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
   width: 40%;
@@ -233,7 +233,7 @@ h1, h2, h3 {
 {
   padding-top: 6px; 
   padding-bottom: 6px;
-  background-color: #A1201C;
+  background-color: #1A5798;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
   margin-top: 5%;
@@ -278,7 +278,7 @@ h1, h2, h3 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 3%;
-  background-color: #F9BD45;
+  background-color: #AA1B1F;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
   border-radius: 7px 7px 7px 7px;
   padding-top: 6px; 
