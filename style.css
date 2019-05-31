@@ -215,6 +215,31 @@ h1, h2, h3 {
 
 }
 
+#toasts a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+#toasts a:hover 
+{
+  color: #F9BD45;
+
+}
+
+#contact a 
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact a:hover 
+{
+  color: #F9BD45;
+
+}
+
+
 .hotell p
 {
   margin: 3%;
@@ -252,7 +277,7 @@ h1, h2, h3 {
 
 #dressingcode
 {
-  width: 90%;
+  width: 50%;
   margin-bottom: 8%;
   margin-left: 5%;
 }
@@ -288,6 +313,13 @@ h1, h2, h3 {
 .schema p
 {
   margin: 3%;
+}
+
+#toasts
+{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
 }
 
 
@@ -432,7 +464,7 @@ html, body {
 {
   width: 90%;
   margin-left: 5%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .left-div
@@ -461,6 +493,11 @@ html, body {
   width: 95%;
   margin-left: 2%;
   margin-top: 2%;
+}
+
+#dressingcode
+{
+  width: 90%;
 }
 
 }
